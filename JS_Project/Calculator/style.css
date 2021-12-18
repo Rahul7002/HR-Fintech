@@ -1,0 +1,53 @@
+.container{
+    text-align: center;
+}
+table{
+    margin: auto;
+    
+}
+input{
+    background-color:yellowgreen;
+    font-size: 24px;
+    border-radius:8px;
+}
+button{
+    font-size: 30px;
+    border-radius:8px;
+    background-color:rgb(209, 226, 220);
+    width:75px;
+    height:50px;
+}
+
+
+
+/*
+
+1.Search Crash Issue -fixed
+2.Prefilled Gst (In Contact Form GST should be prefilled,
+You will get GST from all data Api being called during login) -Not fixed
+3.GST optional issue - fixed
+4.Change Address not reflection -fixed
+*/
+
+/*
+Suggestion- 
+1.Changing e-mail-placeholder of update email should 
+get empty after chainging mail
+2.Contact form -As it is a submit form so,After
+ click on submit button ,Alert should be "Contact
+  infomation Submitted Successfuly" 
+  insted of "Contact infomation Updated" Successfuly
+  */
+
+
+  /*Dashboard Testing
+  IN Query section  - if once status fixed as Resoved its cannot be changed again as Raised or Pending
+  
+
+     Issue Name and Phone No. Not visible in Profile -After adding customer's initial from database ,and login into Application Name and phone no is not visible in profile section 
+
+
+
+     Issues in Dashboard
+     1.Query section Status is flexible : after setting it to resolved it should not be changed to Raised or pending
+     2.After adding customer initials from dashboard ,Name and Phone no not visible in Profile section of app 

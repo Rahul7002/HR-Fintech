@@ -1,0 +1,329 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color:auto;
+}
+.navbar{
+    /* position:relative; */
+    /* border:2px solid black; */
+}
+.carousel-item {
+    width:100%;
+    height: 90vh;
+    /* position: relative; */
+}
+.carouselMain{
+     height:90vh;
+     width: 100%;
+} 
+.about_img{
+    min-width: 100%;
+    max-height:280px;
+}
+.logo_Play_carousel{
+    width:25%;
+    height:18vh;
+    background-color:#fff;
+    /* border:2px solid skyblue; */
+    border-radius: 20px;
+    display: flex;
+    /* justify-self: s; */
+    align-items: center;
+    position:absolute;
+    bottom:10%;
+    left:10%;
+    opacity: 0.5;
+
+}
+.logo_Play_carousel:hover {
+    background-color: yellow;
+    opacity: 1;
+    transition: 1;
+  }
+.heading{
+    font-style:normal;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+    border-width: 5px;
+    border-color: 2px solid black;
+    background-color: green;
+    padding:10px;
+
+}
+
+/* Why HR Fintech */
+.Why{
+    width: 100%;
+    height: auto;
+    background-color:cornsilk;
+    padding: 65px 200Px 25px 40px;
+}
+input {
+    width: 40%;
+    height:40px;
+  }
+.logo_Play{
+    width:25%;
+    height:18vh;
+    background-color:#fff;
+    border:2px solid green;
+    border-radius: 20px;
+    display: flex;
+    /* justify-self: s; */
+    align-items: center;
+
+}
+.logo_Play img{
+    padding: 10px;
+}
+.Why h1{
+    width:40%;
+    color:white;
+    /* background-color:gradient(rgba(30, 199, 24, 0),rgb(115, 172, 119)); */
+    background-color: green;
+    padding-left: 15px;
+    border-radius: 25px;
+    text-align: center;
+}
+.Why h3{
+    color:green;
+    border: 2px solid green;
+    background-color: #fff;
+    width: 20%;
+    text-align: center;
+    border-radius: 30px;
+    margin: 15px ;
+}
+.Why h5{
+    color: rgb(36, 206, 141);
+
+}
+.case_Study{
+    /* margin:50px; */
+    width:100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fff;
+    margin-left: 100px;
+    
+}
+.vertical-line{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0 10px;
+    height: 100px;
+}
+.vt{
+    display: inline-block;
+    border: 1px solid black;
+    height: 30px;
+}
+
+/* OUR SERVices */
+
+.Our{
+    background-color: cornsilk;
+    width: 100%;
+    height:215vh;
+    padding: 20px 0 25px 40px;
+
+}
+.service{
+    width:30%;
+    color:#fff;
+    background-color: green;
+    /* padding-left: 25px; */
+    /* margin:50px; */
+    /* float: center; */
+    border-radius: 25px;
+    text-align: center;
+}
+.finance_related{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-basis: 31%; */
+}
+.fin{
+    width:20%;
+    height:40vh;
+    border: 2px solid red;
+    border-radius: 30px;
+    background-color: aquamarine;
+    padding: 15px;
+    text-align: center;
+    /* */
+    
+}
+#ig{
+    /* border: 2px solid blue;; */
+    padding: 50px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.deposit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width:70%; */
+
+}
+.cen{
+    /* text-align: center; */
+    padding:50px;
+}
+.vertical{
+    display: inline-block;
+    border-left: 1.5px solid #ccc;
+    margin: 0 10px;
+    height: 150px;
+}
+/* ABOUT US Starts */
+.About_Us{
+    background-color: cornsilk;
+    width: 100%;
+    height:auto;
+    padding: 20px 0 25px 40px;
+}
+.team{
+    background-color: rgb(63, 182, 142);
+    margin: 0;
+    width: 100%;
+    height:auto;
+    /* margin: 10px; */
+    padding:40px 60px;
+}
+.team1{
+    display: flex;
+    justify-content:space-around;
+    place-items: center;
+    color: white;
+    
+}
+/* OUR USER REVIEW */
+.Our_user{
+    background-color: cornsilk;
+    width: 100%;
+    height:215vh;
+    padding: 20px 0 25px 40px;
+
+}
+.user1{
+    background-color:green;
+    width:40%;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+.review{
+    width:40%;
+    height:30vh;
+    background-color: rgb(205, 214, 209);
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+#m_center{
+display: flex;
+justify-content: space-around;
+margin: 40px;
+}
+.user2{
+    background-color:green;
+    width:20%;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+.contact_us{
+    /* background-image:url(Hr\)); */
+}
+
+/* Cofe_Reward 
+Issue- 1. Notification-Notification are not removable,delete button not working
+       2.Notification- pull to refresh not present at notification ,
+       3.Contact form-On Chainging prefilled Pin Code, contact form not functioning 
+       4.contact form-if once submitted ,if user again try to submit again -a message 
+       of already form submitted sucessfully  */
+
+       /* FAQs 
+       1.How to add New Device/Camera
+       Solution:Step1:Go to the Add new Device option from Side Drawer
+                Step2:Make Sure Your Camera is On
+                Step3:Fill the Camera Serial Id,Select Timezone and Password or
+                      Yu can Simply Scan Qr Code located on the Back of Camera
+                Step4:Select room and Click on Add Button
+                Camera Added Sucessfully
+
+       2.How to remove camera
+       Solution:Step1:Go to Setting icon given aside camera name
+                Step2:Select Remove Camera Option
+
+       3.Move Camera to different room
+       Solution:Step1:Go to Setting icon given aside camera name
+                Step2:Select Change Room Option
+                Step3:Select the room yu want
+
+       4.How to Suscribe/renew 
+       Solution:Step1:Go to Suscribed Cameras icon located at bottom-right corner
+                Step2:Click on Suscribe/renew option
+                Step3:Select the Camera want to Suscribe/renew
+                Step4:Select the plan 
+                Step5:Checkout and proceed with payment
+
+       5.Set new Alarm 
+       Solution:Step1:Go to AI Alarm icon located at bottom-left corner
+                Step2:Click on + button to Add new alarm 
+                Step3:Fill the details as per your requirement and Save it
+                Alarm Created Sucessfully
+
+       6.Edit Existing Alarm
+       Solution:Step1:Go to AI Alarm icon located at bottom-left corner
+                Step2:Select the Alarm you want to edit
+                Step3:Fill the details as per your requirement and Save it
+                Alarm Edited Sucessfully
+
+       7.What are offering/Plans
+       Solution:Step1:Step1:Go to Suscribed Cameras icon located at bottom-right corner
+                Step2:Click on Suscribe/renew option
+                Step3:Select the Camera want to Suscribe/renew
+                Here You can Check our offerings and Plans
+
+       8.How to Find/manage my device
+       Solution:Step1:Go to Device Management Option given in Side Drawer
+                Step2:Select the room and your Camera
+
+       9.How to stream Live
+       Solution:Step1:Select the room 
+                Step2:Simply Click on the camera to view live Streaming
+
+       10.How to download previous dates videos
+       Solution:Step1:Select the room 
+                Step2:Simply Click on the camera 
+                Step3:Go to Cloud PlayBack Option
+                Step4:Click on dowload button
+
+       11.How to download activity
+       Solution:Step1:Go to AI Alarm icon located at bottom-left corner
+                Step2:Go to Activity option
+                Step3:Click on download icon to download you activity 
+
+       12.Where to view my recorded videos and snapshots
+       Solution:Step1:Click Gallery icon at left of home button
+                Step2:You can Select local or cloud option
+       *
+       /

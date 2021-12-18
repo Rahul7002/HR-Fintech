@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Yuji Boku', serif
+}
+header{
+    background-image: linear-gradient(#0801014d,rgba(0,0,0,0.1)),url('India.jpg');
+    width:100%;
+    height:300vh;
+}
+nav .logo {
+    color:white;
+    width:25%;
+    text-align: center;
+    word-spacing: 50px;
+    font-weight: bold;
+}
+.navbar{
+    width:100%;
+    height:15vh;
+    border:2px solid black;
+    background-color:black;
+    display: flex;justify-content: space-between;align-items: center;
+    text-transform: uppercase;
+}
+.container{
+    /* /* display: inline-flex;
+    justify-content: space-around;
+    /* text-align:center; */
+    /* float:right;
+    margin-right: 30px;   */
+   width: 50%;
+   text-align: center;
+   display: flex; justify-content: space-around;
+   margin-right:40px ;
+
+}
+  
+nav .container a{
+    text-decoration: none;
+    color:white;
+    /* font-weight: bold; */
+    /* width: 20%; */
+}
+main{
+    width:100%;
+    height:85vh;
+    /* background-color: white; */
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+    /* text-align: center; */
+    color: white;
+}
+section h2{
+    width:100%;
+    text-align: center;
+    font-size:50px;
+    font-weight: bolder;
+    color: turquoise;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px 2px black; /*hz vt blur colur*/
+
+}
+section h1{
+    width:100%;
+    text-align: center;
+    font-size:50px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px 2px black; /*hz vt blur colur*/
+
+}
+section a{
+    /* width: 100%; */
+    padding: 10px 30px;
+    color:white;
+    border-radius:4px;
+    outline:none;
+    text-transform: uppercase;
+    text-decoration: none;
+    word-spacing: 10px;
+    /* letter-spacing: 10px; */
+    /* background-color: violet; */
+    text-align: center;
+    /* margin-left: 250px; */
+    font-size:20px;
+    font-weight: 500px;
+    /* letter-spacing: 0.1em; */
+    text-shadow: 1px 1px 2px black; /*hz vt blur colur*/
+}
+
+section .btn_one{
+    margin-right: 10px;
+    background-color: violet;
+    letter-spacing: 0.1em;
+}
+section .btn_two{
+    margin-left: 100px;
+    background-color:blue;
+}
+.animate__animated.animate__bounce {
+    --animate-duration: 3s;
+  }
+
+.change_content:after{
+    content:'';
+    animation:changetext 10s infinite linear;
+    color: white;
+}
+@keyframes changetext{
+    0%{content:"Darjelling"}
+    25%{content:"Shimla"}
+    50%{content:"Manali"}
+    75%{content:"Lucknow"}
+    100%{content:"Ayodhya"}
+
+}

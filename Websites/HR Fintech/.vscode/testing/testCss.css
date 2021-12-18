@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border-color: auto;
+}
+
+.nav {
+width:100%;
+height:15vh;
+text-align: right;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: lightgray;
+margin:0;
+
+
+}
+p{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    padding: 2em;
+    border: 2px solid red;
+    background-color:blue;
+}
+button{
+    display:block;
+    float:left;
+    margin:30px 10px 0px 40px;
+    cursor:pointer;
+}
+
+
